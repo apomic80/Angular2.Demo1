@@ -1,2 +1,2 @@
-# Angular2 demo starting project
-The angular2 demo starting project
+# Angular2 demo 1 completed
+The angular2 demo 1 completed: module, components, services and backend integration
