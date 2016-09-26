@@ -1,0 +1,26 @@
+<div *ngIf="!formVisible">
+    <button class="btn btn-large btn-primary margin-bottom-md" (click)="create()"><i class="glyphicon glyphicon-plus"></i> Create Event</button>
+    <table class="table table-responsive table-striped table-hover table- ng2">
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>startdate</th>
+            <th>enddate</th>
+            <th>visible</th>
+            <th></th>
+        </tr>
+        <tr *ngFor="let event of eventList">
+            <td>{{ event.id }}</td>
+            <td>{{ event.name }}</td>
+            <td>{{ event.startDate }}</td>
+            <td>{{ event.endDate }}</td>
+            <td>{{ event.visible }}</td>
+            <td>
+                <button class="btn btn-small btn-warning" (click)="edit(event)" ><i class="glyphicon glyphicon-pencil"></i> Edit</button>
+                <button class="btn btn-small btn-danger"  (click)="delete(event)"><i class="glyphicon glyphicon-remove"></i> Delete</button>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<em-event *ngIf="formVisible" (onCancel)="hideForm()" [event]="currentEvent"></em-event>

@@ -1,0 +1,48 @@
+.nopad {
+    padding: 0px!important;
+}
+.nomargin {
+    margin: 0;
+}
+.margin-xs {
+    margin: 5px;
+}
+.margin-sm {
+    margin: 10px;
+}
+.margin-md {
+    margin: 30px;
+}
+.margin-lg {
+    margin: 60px;
+}
+.margin-top-md {
+    margin-top: 30px!important;
+}
+.margin-bottom-md {
+    margin-bottom: 30px!important;
+}
+.pad-xs {
+    padding: 5px;
+}
+.pad-sm {
+    padding: 10px;
+}
+.pad-md {
+    padding: 30px;
+}
+.pad-lg {
+    padding: 60px;
+}
+.pad-lat-sm {
+    padding: 0 10px;
+}
+.pad-top-sm {
+    padding-top: 10px!important;
+}
+.pad-top-md {
+    padding-top: 30px!important;
+}
+.pad-bottom-md {
+    padding-bottom: 30px!important;
+}
